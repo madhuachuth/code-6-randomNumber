@@ -1,0 +1,77 @@
+/* Write your CSS here */
+
+.container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.random-container {
+  box-shadow: 0px 4px 16px 0px #eaebed;
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+}
+@media screen and (min-width: 768px) {
+  .random-container {
+    width: 35%;
+    max-width: 500px;
+  }
+}
+
+.heading {
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: bold;
+  color: #0b69ff;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 24px;
+  }
+}
+
+.description {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  max-width: 300px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 18px;
+  }
+}
+
+.button {
+  background-color: #0b69ff;
+  border: none;
+  color: white;
+  height: 30px;
+  width: 120px;
+  border-radius: 8px;
+}
+
+.count {
+  color: #0b69ff;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .count {
+    font-size: 48px;
+  }
+}
